@@ -1,0 +1,312 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 10px auto;
+    color: #090a0c;
+    border-top: 0px solid #55c9f0;
+    border-left: 5px solid #55c9f0;
+    border-right: 5px solid #55c9f0;
+    border-bottom: 3px solid #000000;
+
+}
+body.admission-page {
+    border-left: 10px solid #55c9f0;
+    border-right: 10px solid #55c9f0;
+}
+body.contact-page {
+    border-left: 20px solid #55c9f0;
+    border-right: 20px solid #55c9f0;
+     border-bottom: none;
+}
+
+header {
+    padding: 8px 10px;
+}
+
+header img {
+    width: 150px;
+}
+
+.slogan {
+    color: #fa9b3c;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#banniere img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+     border-top: 4px solid #55c9f0;
+}
+
+nav {
+    background-color: white;
+    padding: 6px 15px;
+    display: flex;
+    gap: 20px;
+    border-top: 4px solid #55c9f0;
+    border-bottom: 4px solid #55c9f0;
+}
+
+nav a {
+    color: rgb(254, 105, 42);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+article {
+    flex: 3;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+article h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 6px 0;
+}
+
+article h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0 4px 0;
+}
+
+article h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 0 4px 0;
+}
+
+article p {
+    margin: 4px 0;
+}
+
+article ul, article ol {
+    margin: 4px 0;
+    padding-left: 18px;
+}
+
+article li {
+    margin: 2px 0;
+}
+
+aside {
+    flex: 1;
+    border: 1px solid #4bb8eb;
+    padding: 8px;
+    font-size: 14px;
+    height: fit-content;
+    background-color: #f0f0f0;
+}
+
+aside h4 {
+    background-color: rgb(238, 241, 244);
+    color: rgb(22, 139, 255);
+    padding: 4px 6px;
+    margin: 0 0 6px 0;
+    font-size: 14px;
+}
+
+aside p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    color: #2638fe;
+}
+
+aside img {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+aside .reseaux {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 6px;
+}
+
+aside .reseaux img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 8px auto;
+    font-size: 14px;
+    border: 1px solid #080707;
+}
+
+table th {
+    background-color: rgb(247, 241, 241);
+    color: rgb(15, 14, 13);
+    border: 1px solid #121010;
+    padding: 5px 8px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+table td {
+    border: 1px solid #110d0d;
+    padding: 4px 8px;
+    text-align: left;
+    background-color: rosybrown;
+}
+
+table tr:nth-child(even) td {
+    background-color: rosybrown;
+}
+
+.bienvenue {
+    display: block;
+    margin: 8px 0;
+}
+
+.photo-dg {
+    float: left;
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0 10px 5px 0;
+}
+
+article.admissions h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+article.admissions p {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    max-width: 90% !important;
+    line-height: 1.6 !important;
+}
+
+article.admissions ul {
+    margin: 5px 0 15px 20px !important;
+}
+
+article.admissions li {
+    margin: 4px 0 !important;
+}
+
+.contact-section {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+
+.contactez-nous {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.contactez-nous h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.titre-contact {
+    font-weight: bold;
+}
+
+.nous-ecrire {
+    flex: 1;
+    font-size: 14px;
+}
+
+.nous-ecrire h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    font-size: 8px;
+    box-sizing: border-box;
+}
+
+.formulaire input[type="submit"] {
+    background-color: #f7f9fc;
+    color: rgb(23, 18, 18);
+    border: none;
+    padding: 6px 15px;
+    font-size: 14px;
+}
+
+
+footer {
+    display: flex;
+    gap: 20px;
+    padding: 12px 15px;
+    border-top: 3px solid #55c9f0;
+    background-color: #fff;
+    font-size: 14px;
+    list-style: none;
+
+}
+
+.footer-gauche {
+    flex: 1;
+    color: #6caef1;
+    font-weight: bold;
+}
+
+.footer-colonne {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.footer-colonne h4 {
+    color: #0d0e0e;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-colonne a {
+    color: #5eadfd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
